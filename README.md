@@ -1,5 +1,5 @@
 # UE_TexturePath_Updater
-br/
+
 ✨ Key Features
 This tool solves the common problem where source texture files have been moved or replaced on the disk. Instead of manually updating every asset, the script performs the following:
 
