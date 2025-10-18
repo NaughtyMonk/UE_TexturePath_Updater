@@ -1,21 +1,21 @@
 # UE_TexturePath_Updater
-A Python script for Unreal Engine designed to batch update the Source File Path for textures in your project and immediately reimport them.
-✨ Основные особенности
-Этот инструмент решает проблему, когда исходные файлы текстур были перемещены или заменены на диске. Вместо ручного обновления каждого ассета, скрипт:
+br/
+✨ Key Features
+This tool solves the common problem where source texture files have been moved or replaced on the disk. Instead of manually updating every asset, the script performs the following:
 
-⚡️ Автоматизирует процесс: Обходит все Texture2D ассеты в проекте.
+⚡️ Automates the Process: Iterates through all Texture2D assets in your project.
 
-🔍 Сопоставление по имени: Ищет файл с идентичным именем в указанной вами папке.
+🔍 Name Matching: Searches for a file with an identical name in your specified folder.
 
-🔄 Обновление и Реимпорт: При совпадении обновляет Source File Path и вызывает функцию reimport_asset(), чтобы немедленно применить новые данные.
+🔄 Update & Reimport: When a match is found, it updates the asset's Source File Path and calls the reimport_asset() function to load the new data instantly.
 
-ВАЖНО: Для успешного сопоставления имена файлов в исходной папке на диске должны точно совпадать с именами ассетов текстур в Unreal Engine.
+CRITICAL: For successful matching, the file names in your source folder must exactly match the names of the texture assets in Unreal Engine.
 
-⚙️ Требования
-Unreal Engine 4.24 или новее.
+⚙️ Requirements
+Unreal Engine 4.24 or later.
 
-Включенный плагин Python Editor Script Plugin (Edit → Plugins → Scripting).
+The Python Editor Script Plugin must be enabled (Edit → Plugins → Scripting).
 
-🚀 Инструкция по запуску
-Шаг 1: Настройка пути в скрипте
-Откройте файл UE_TexturePath_Updater.py и замените путь в переменной NEW_TEXTURES_FOLDER на абсолютный путь к папке с новыми исходниками:
+🚀 Usage Guide
+Step 1: Configure the Script Path
+Open UE_TexturePath_Updater.py and replace the path in the NEW_TEXTURES_FOLDER variable with the absolute path to your folder containing the new source files:
