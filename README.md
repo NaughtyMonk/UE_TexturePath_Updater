@@ -24,7 +24,7 @@ Unreal Engine 4.24 or later.
 
 The Python Editor Script Plugin must be enabled (Edit → Plugins → Scripting).
 
-![UI Screenshot](Img/Absolute_path.png)
+![Edit → Plugins → Scripting](Img/python_editor.png)
 
 
 ## 🚀 Usage Guide
@@ -38,7 +38,7 @@ Open UE_TexturePath_Updater.py and replace the path in the NEW_TEXTURES_FOLDER v
 
 NEW_TEXTURES_FOLDER = r"Absolute_path_to_your_folder"
 
-![UI Screenshot](img/Absolute_path.png)
+![Absolute path to your folder](Img/Absolute_path.png)
 
 
 # ABSOLUTE PATH to the folder where your new .png, .tga, .jpg, etc., files reside.
@@ -57,7 +57,7 @@ Launch your Unreal Engine project.
 In the editor menu, navigate to File → Execute Python Script...
 
 
-![UI Screenshot](img/Absolute_path.png)
+![Execute Python Script](Img/execute_python.png)
 
 
 Select your UE_TexturePath_Updater.py file.
