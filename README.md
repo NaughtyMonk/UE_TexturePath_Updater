@@ -24,27 +24,30 @@ Unreal Engine 4.24 or later.
 
 The Python Editor Script Plugin must be enabled (Edit → Plugins → Scripting).
 
+![UI Screenshot](img/Absolute_path.png)
 
-🚀 Usage Guide
 
-Step 1: Configure the Script Path
+## 🚀 Usage Guide
+
+### Step 1: Configure the Script Path
 
 
 Open UE_TexturePath_Updater.py and replace the path in the NEW_TEXTURES_FOLDER variable with the absolute path to your folder containing the new source files:
 
 
 
-Python
+NEW_TEXTURES_FOLDER = r"Absolute_path_to_your_folder"
 
+![UI Screenshot](img/Absolute_path.png)
 
 
 # ABSOLUTE PATH to the folder where your new .png, .tga, .jpg, etc., files reside.
 
 
-NEW_TEXTURES_FOLDER = "C:/Users/YourUser/Desktop/NewTextures_Final" 
 
 
-Step 2: Execute in Unreal Engine
+
+### Step 2: Execute in Unreal Engine
 
 
 Launch your Unreal Engine project.
@@ -53,6 +56,8 @@ Launch your Unreal Engine project.
 
 In the editor menu, navigate to File → Execute Python Script...
 
+
+![UI Screenshot](img/Absolute_path.png)
 
 
 Select your UE_TexturePath_Updater.py file.
