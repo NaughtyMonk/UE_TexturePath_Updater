@@ -41,7 +41,7 @@ NEW_TEXTURES_FOLDER = r"Absolute_path_to_your_folder"
 ![Absolute path to your folder](Img/Absolute_path.png)
 
 
-# ABSOLUTE PATH to the folder where your new .png, .tga, .jpg, etc., files reside.
+## ABSOLUTE PATH - folder where your new .png, .tga, .jpg, etc., files reside.
 
 
 
