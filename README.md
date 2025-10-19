@@ -24,7 +24,7 @@ Unreal Engine 4.24 or later.
 
 The Python Editor Script Plugin must be enabled (Edit → Plugins → Scripting).
 
-![UI Screenshot](img/Absolute_path.png)
+![UI Screenshot](Img/Absolute_path.png)
 
 
 ## 🚀 Usage Guide
